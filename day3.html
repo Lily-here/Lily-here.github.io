@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>position</title>
+    <style>
+        body{
+            height: 1000px;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .con {
+        background-color: #F1F1F1;
+        height: auto;
+        width: 100%;
+        }
+        .icon {
+        position: relative;
+        top: 20px;
+        left: 20px;
+        background-color: aquamarine;
+        height: 80px;
+        width: 80px;
+    }
+        .title {
+        position: relative;
+        left: 120px;
+        top: -50px;
+        font-size: 20px;
+        color: black;
+        background-color: bisque;
+        width: 50%;
+    }
+        .des {
+        position: relative;
+        left: 120px;
+        top: -40px;
+        font-size: 16px;
+        color: #666;
+        width: 50%;
+        background-color: palegreen;
+    }
+
+        .time {
+        position: absolute;
+        right: 10px;
+        top: 30px;
+        width: 40px;
+        font-size: 16px;
+        color: #666;
+        background-color: blue;
+    }
+    </style>
+</head>
+<body>
+    <div class="con">
+        <div class="icon"></div>
+        <div class="title">File Transfer</div>
+        <div class="des">position布局</div>
+        <div class="time">10:00</div>
+    </div>
+</body>
+</html>
